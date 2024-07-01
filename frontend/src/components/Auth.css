@@ -1,0 +1,210 @@
+/* src/Login.css */
+
+/* body {
+  background: linear-gradient(to bottom, #4db5f9, #1a2a6c);
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  margin: 0;
+} */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: #37375c;
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #78e1ff;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: #aacfda;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  padding: 10px;
+  border:#66ccff;
+  border-radius: 5px;
+  background: #a9a5a5;
+  color: #fff;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #78e1ff;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+}
+
+.options input {
+  margin-right: 5px;
+}
+
+.options a {
+  color: #78e1ff;
+  text-decoration: none;
+}
+
+button {
+  background: #78e1ff;
+  color: #fff;
+  border: none;
+  padding: 10px 60px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: #66ccff;
+}
+
+.icon {
+  
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: -20px;
+  margin-bottom: -35px;
+  
+}
+
+
+.register-btn {
+  background: #78e1ff;
+  color: #fff;
+  border: none;
+  padding: 10px 60px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.register-btn:hover {
+  background: #66ccff;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: #78e1ff;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar svg {
+  font-size: 40px;
+  color: #78e1ff;
+}
+
+/* dashboard */
+
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th,
+tbody th {
+  color: #fff;
+}
+
+tbody td {
+  font-weight: 500;
+  color: rgba(255, 255, 255, .65);
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+/* Register  */
+
+
+/* src/Auth.css */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container form {
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(238, 234, 10, 0.963);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #39e9ce;
+  color: #ffffff;
+  font-size: medium;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #78e1ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #66ccff;
+}
